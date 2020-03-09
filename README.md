@@ -1,6 +1,5 @@
 # LendingClubDataPipeline
 
-## Exploratory data analysis
 **Description**
 LendingClub is an American peer-to-peer lending company, headquartered in San Francisco, California. It was the first peer-to-peer lender to register its offerings as securities with the Securities and Exchange Commission, and to offer loan trading on a secondary market. 
 
@@ -9,6 +8,9 @@ LendingClub is an American peer-to-peer lending company, headquartered in San Fr
 Sample data This dataset contain complete loan data for all loans issued through the 2007-2015, including the current loan status (Current, Late, Fully Paid, etc.) and latest payment information.
  downloaded the dataset in CSV format (loan.csv) and associated dictionary (LCDataDictionary.xlsx) from
 https://www.kaggle.com/wendykan/lending-club-loan-data.
+
+## Exploratory data analysis
+TBD...
 
 ## Data Pipeline Application
 **Tools/technogies** 
