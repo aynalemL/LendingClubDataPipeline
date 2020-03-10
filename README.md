@@ -60,5 +60,6 @@ The main entry point of the application is the DataPipelineApp class. This class
 3. Explore option to updating and insert the new data instead of just appending to existing data
 4. Create a normalized table (if applicable ).
 5. Do further functional and performance testing and optimize the application to be more reusable and maintainable and performant.
-5. performance benchmarking to identify opportunities to increase scalability as well as optimize performance 
+5. Performance benchmarking to identify opportunities to increase scalability as well as optimize performance 
+6. Failure re-try and exception handling
  
