@@ -35,12 +35,14 @@ For more details please see the notebook(Databrics Notebook) in the scr code.
 
  Please import this notebook(https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/4612078882580724/1075139945323061/8179890832214222/latest.html) to see more data exploration steps
  
- ![Distribuation of loan amount and interst rate](/images/src/main/resources/sampel EDA graphs/sample4.png)
+ ![Distribuation of loan amount and interest rate](/images/src/main/resources/sampel EDA graphs/sample4.png)
+ 
+ Here we can see the distribuation of interest rate and loan amount. 
+ 
  ![Distribution of interst rate by grade](/images/src/main/resources/sampel EDA graphs/sample2.png)
-    
-    
- ![interest rate by terms](/images/src/main/resources/sampel EDA graphs/Screenshot 2020-03-10 00.34.32.png)
-    
+ 
+ LendingClub assigns a grade (A–D) and sub-grade (1-5) to each Note, which reflects LendingClub’s assessment of the credit risk of the corresponding loan. the above graph show the total number of borwers and thier interest rate by the grade assigned. 
+  
 
 Note: The results of this data exploration was used to create an application that clean, format and validate the data for the pipeline. he value. Plus, where deemed necessary and when the missing values are not more than 25%, I created a method that fills it with the average of the column.
 
