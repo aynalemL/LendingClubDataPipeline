@@ -35,11 +35,11 @@ For more details please see the notebook(Databrics Notebook) in the scr code.
 
  Please import this notebook(https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/4612078882580724/1075139945323061/8179890832214222/latest.html) to see more data exploration steps
  
- ![Distribuation of loan amount and interest rate](/images/src/main/resources/sampel EDA graphs/sample4.png)
+ ![Distribuation of loan amount and interest rate](/image/sample4.png)
  
  Here we can see the distribuation of interest rate and loan amount. 
  
- ![Distribution of interst rate by grade](/images/src/main/resources/sampel EDA graphs/sample2.png)
+ ![Distribution of interst rate by grade](/image/sample2.png)
  
  LendingClub assigns a grade (A–D) and sub-grade (1-5) to each Note, which reflects LendingClub’s assessment of the credit risk of the corresponding loan. the above graph show the total number of borwers and thier interest rate by the grade assigned. 
   
