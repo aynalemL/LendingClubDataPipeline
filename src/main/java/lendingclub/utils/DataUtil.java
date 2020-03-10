@@ -78,7 +78,7 @@ public class DataUtil {
     }
     public static Dataset<Row> deleteRowsOrDropCol(Dataset<Row> ds, String colName, boolean isSparse){
         if(isSparse){
-           ds = dropCol(ds, colName);
+           ds = ds.drop(colName);
         }else{
            ds = deleteRowsWithNull(ds, colName);
         }
@@ -98,8 +98,8 @@ public class DataUtil {
         ds = ds.filter(col(colName).isNotNull());
         return ds;
     }
-    public static Dataset<Row> dropCol(Dataset<Row> ds, String colName){
-        ds = ds.drop(colName);
+    public static Dataset<Row> dropCols(Dataset<Row> ds, String [] colNames){
+        ds = ds.drop(colNames);
         return ds;
     }
 }

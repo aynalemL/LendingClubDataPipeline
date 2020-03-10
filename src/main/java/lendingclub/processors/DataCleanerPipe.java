@@ -8,7 +8,7 @@ import org.apache.spark.sql.Row;
 public class DataCleanerPipe {
 
     public Dataset<Row> run(Dataset<Row> ds){
-        ds = DataUtil.selectColumns(ds, Consts.COLS_BUSINESS_IMPORTANT);
+        ds = DataUtil.dropCols(ds, Consts.COLS_TO_DROP);
         ds = DataUtil.formatDate(ds, Consts.COL_DATES, Consts.MONTH_YEAR_FORMAT );
         ds = DataUtil.removeNonDigitFromNumericCols(ds);
         ds = DataUtil.convertColDataTypes(ds, Consts.COLS_BUSINESS_IMPORTANT);
