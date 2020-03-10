@@ -37,10 +37,11 @@ Note: The results of this data exploration was used to create an application tha
 **Tools/technogies** 
 
 1. Spark: Big data processing 
-2. Java: pipeline application development 
-3. PySpark/Databricks: for exploratory data analysis
-4. Parquet: file format to store cleaned data
-5. Postgres: relational database to store cleaned data
+2. Java: pipeline application development
+3. Junit: unit testing 
+4. PySpark/Databricks: for exploratory data analysis
+5. Parquet: file format to store cleaned data
+6. Postgres: relational database to store cleaned data
 
 **Pipeline steps**
 
