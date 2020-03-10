@@ -31,12 +31,12 @@ The exploratory data anlytics was conducted in a databricks notebook is written 
 
 For more details please see the notebook(Databrics Notebook) in the scr code.
 
- **Sample graphs created for data Exploration and selecting business required column for further analysis:**
- Please import this notebook(**https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/4612078882580724/1075139945323061/8179890832214222/latest.html**) to see more data exploration steps
+**Sample graphs created for data Exploration and selecting business required column for further analysis:**
+
+ Please import this notebook(https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/4612078882580724/1075139945323061/8179890832214222/latest.html) to see more data exploration steps
  
- ![Distribuation of loan amount and interst rate](/images/src/main/resources/sampel EDA graphs/Screenshot 2020-03-09 23.48.19.png)
-   
- ![Distribution of interst rate by grade](/images/src/main/resources/sampel EDA graphs/Screenshot 2020-03-09 23.50.55.png)
+ ![Distribuation of loan amount and interst rate](/images/src/main/resources/sampel EDA graphs/sample4.png)
+ ![Distribution of interst rate by grade](/images/src/main/resources/sampel EDA graphs/sample2.png)
     
     
  ![interest rate by terms](/images/src/main/resources/sampel EDA graphs/Screenshot 2020-03-10 00.34.32.png)
