@@ -16,17 +16,12 @@ The file was uploaded to DBFS. [DBFS](https://docs.databricks.com/user-guide/dbf
 
 The exploratory data anlytics was conducted in a databricks notebook is written in **Python**. Signup for Databricks community version here-https://databricks.com/signup/signup-community.
 
-## Assumption and Steps**
-**Assumption**
-1. Since the main purpose of this exploratory data analysis is to understand the data and exploration and preparation for further analytics, I assumed that it is essential to dropping some of the columns more than 25% null/missing values.
-
-2. For the pipeline, I didn't remove the column with even if the value is 100% null,  since the data science team may want to use it by   generating the value or refactoring it. 
 
 **steps to explore the data in details:**
 1. upload the file into Databrick DBFS(Databrick File Storage service and read from there using pyspark.
 2. print the schema to identify the data type and check the patterns
 3. Since it makes the process slow, I selected a sample of the data to do data quality analysis. using random sampling I selected 100,000. 
-4. Count the number of null in each column and find a list of columns that have more than 25% null values, and drop the column with more than 25% null values
+4. Count the number of null in each column and find a list of columns that have more than 75% null values, and drop the column with more than 75% null values.
 5. To properly examine each column, load sample column only 10 columns at a time and identify the pattern, check data quality visualize and do a descriptive stat to understand the nature of the data and identify data quality issues that need fixed/ cleaning.   For example, a column such as annual _inc was string while the correct data type is numeric, column-like terms have additional string months which will be a problem to do numerical statistic, etc... 
 
 For more details please see the notebook(Databrics Notebook) in the scr code.
