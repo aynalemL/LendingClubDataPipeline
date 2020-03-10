@@ -30,10 +30,16 @@ The exploratory data anlytics was conducted in a databricks notebook is written 
 5. To properly examine each column, load sample column only 10 columns at a time and identify the pattern, check data quality visualize and do a descriptive stat to understand the nature of the data and identify data quality issues that need fixed/ cleaning.   For example, a column such as annual _inc was string while the correct data type is numeric, column-like terms have additional string months which will be a problem to do numerical statistic, etc... 
 
 For more details please see the notebook(Databrics Notebook) in the scr code.
+
  **Sample graphs created for data Exploration and selecting business required column for further analysis:**
-   ![Distribuation of loan amount and interst rate](/images/src/main/resources/sampel EDA graphs/Screenshot 2020-03-09 23.48.19.png)
-    ![Distribution of interst rate by grade](/images/src/main/resources/sampel EDA graphs/Screenshot 2020-03-09 23.50.55.png)
-      ![interest rate by terms](/images/src/main/resources/sampel EDA graphs/Screenshot 2020-03-10 00.34.32.png)
+ Please import this notebook(**https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/4612078882580724/1075139945323061/8179890832214222/latest.html**) to see more data exploration steps
+ 
+ ![Distribuation of loan amount and interst rate](/images/src/main/resources/sampel EDA graphs/Screenshot 2020-03-09 23.48.19.png)
+   
+ ![Distribution of interst rate by grade](/images/src/main/resources/sampel EDA graphs/Screenshot 2020-03-09 23.50.55.png)
+    
+    
+ ![interest rate by terms](/images/src/main/resources/sampel EDA graphs/Screenshot 2020-03-10 00.34.32.png)
     
 
 Note: The results of this data exploration was used to create an application that clean, format and validate the data for the pipeline. he value. Plus, where deemed necessary and when the missing values are not more than 25%, I created a method that fills it with the average of the column.
